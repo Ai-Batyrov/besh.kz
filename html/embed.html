@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Embed</title>
+    <link rel="stylesheet" href="../css/user.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main style="display: flex; flex-direction: column; align-items: flex-start; margin: 50px">
+        <div>
+            <div>
+                <span>First Name</span>
+                <input type="text" name="firstName" id="firstName" placeholder="Aibolat">
+            </div>
+            <div>
+                <span>Last Name</span>
+                <input type="text" name="lastName" id="lastName" placeholder="Batyrov">
+            </div>
+        </div>
+        <div>
+            <div>
+                <span>E-Mail:</span>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+            </div>
+            <div>
+                <span>Country:</span>
+                <select>
+                    <option value="Kaz">Kazakhstan</option>
+                    <option value="Rus">Russia</option>
+                    <option value="Kyr">Kyrgyzstan</option>
+                    <option value="Tur">Turkmenistan</option>
+                    <option value="Taj">Tajikistan</option>
+                    <option value="Uzb">Uzbekistan</option>
+                    <option value="Aze">Azerbaijan</option>
+                </select>
+            </div>
+            <div>
+                <span>Phone number</span>
+                <input type="number" name="phone">
+            </div>
+        </div>
+        <div>
+            <div>
+                <span>City</span>
+                <input type="text" name="city" id="city" placeholder="Almaty">
+            </div>
+            <div>
+                <span>Full address:</span>
+                <input type="number" name="address" id="address" placeholder="Abylay Khan Street, 1/1">
+            </div>
+            <div>
+                <span>Cheque</span>
+                <input type="file" name="image" id="image">
+            </div>
+        </div>
+        <div>
+            <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Save
+            </button>
+        </div>
+    </main>
+</body>
+</html>

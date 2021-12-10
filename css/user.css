@@ -1,0 +1,91 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Poppins, serif;
+}
+
+h1 {
+    margin-top: 30px!important;
+    font-family: Poppins, serif;
+    font-weight: bold!important;
+    font-size: 44px!important;
+    color: rgba(166, 74, 201, 1);
+    text-shadow: 0 2px 10px rgba(166, 74, 201, 0.3);
+}
+
+section {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section:nth-child(1) img {
+    border-radius: 15px;
+}
+
+#registration {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registrationForm {
+    width: 100%;
+}
+
+input {
+    border: 2px solid rgb(165, 74, 201);
+    border-radius: 5px;
+    height: 40px;
+}
+
+#registration > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#registration > div > div {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+#genderSelect {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 80%;
+}
+
+#genderSelect > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    height: 40px;
+    border: 2px solid #A64AC9;
+    border-radius: 5px;
+}
+
+#registration > label {
+    display: flex;
+    flex-direction: column;
+}
+
+label > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+label > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

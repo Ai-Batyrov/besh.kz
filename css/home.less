@@ -1,0 +1,166 @@
+#first_frame {
+  background: url(../img/home/image_wrap.png) no-repeat right;
+  height: 473px;
+  transition: background-image 700ms ease-in-out;
+
+  h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  &:hover {
+    background: url(../img/home/hover/image_wrap.png) no-repeat right;
+  }
+}
+
+#second_frame {
+  background: url(../img/home/image_wrap_2.png) no-repeat left;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  height: 473px;
+  transition: background-image 700ms ease-in-out;
+
+  &:hover {
+    background: url(../img/home/hover/image_wrap_2.png) no-repeat left;
+  }
+}
+
+#third_frame {
+  background: url(../img/home/image_wrap_3.png) no-repeat right;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  height: 473px;
+  transition: background-image 700ms ease-in-out;
+
+  &:hover {
+    background: url(../img/home/hover/image_wrap_3.png) no-repeat right;
+  }
+}
+
+main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Poppins, serif;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  width: 790px;
+  justify-content: space-between;
+  font-family: Poppins, serif;
+  height: 396px;
+  text-align: justify;
+}
+
+.discription {
+  text-align: justify;
+  height: 284px;
+  width: 784px;
+  font-size: 24px;
+}
+
+
+/* iPad Pro */
+@media only screen and (max-width: 1024px) {
+
+  .discription {
+    background-color: rgba(255, 255, 255, 60%);
+  }
+
+  h1 {
+    background-color: rgba(255, 255, 255, 60%);
+  }
+}
+
+/* Pixel 2XL */
+@media only screen and (min-width: 411px) and (max-width: 1023px) {
+  .body {
+    width: 110%;
+  }
+
+  main {
+    margin-bottom: 30px;
+  }
+
+  #first_frame, #second_frame, #third_frame {
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+  }
+
+  #first_frame {
+    background: url("../img/home/hover/image_wrap.png") center no-repeat;
+  }
+
+  #second_frame {
+    background: url("../img/home/hover/image_wrap_2.png") center no-repeat;
+  }
+
+  #third_frame {
+    background: url("../img/home/hover/image_wrap_3.png") center no-repeat;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  .discription {
+    width: 80%;
+    height: 60%;
+    opacity: 80%;
+    font-size: 12px;
+  }
+}
+
+/* iPhone X*/
+@media only screen and (min-width: 360px) and (max-width: 411px) {
+  .body {
+    width: 110%;
+  }
+
+  main {
+    margin-bottom: 30px;
+  }
+
+  #first_frame, #second_frame, #third_frame {
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+  }
+
+  #first_frame {
+    background: url("/img/home/hover/image_wrap.png") center no-repeat;
+  }
+
+  #second_frame {
+    background: url("/img/home/hover/image_wrap_2.png") center no-repeat;
+  }
+
+  #third_frame {
+    background: url("../img/home/hover/image_wrap_3.png") center no-repeat;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  .discription {
+    width: 80%;
+    height: 60%;
+    opacity: 80%;
+    font-size: 12px;
+  }
+}
